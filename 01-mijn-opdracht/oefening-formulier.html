@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+	<meta charset="utf-8">
+	<title>Oefening formulier</title>
+</head>
+<!-- --------------------------- -->
+<body>
+	<h1>Oefening formulier</h1>
+		<form>
+			<p>Maak uw keuze: 
+				<select>
+					<option>De opgang - Stefan Hertmans - € 15</option>
+					<option>Mathilda's geheim - Corina Bomann - € 21</option>
+					<option>Dwars door België - Arnout Hauben - € 18</option>
+					<option>De meeste mensen deugen - Rutger Bregman - € 25</option>
+					<option>De avond is ongemak - Marieke Lucas Rijneveld - € 17</option>
+					<option>Durf dromen - Annemie Struyf - € 26</option>
+				</select>
+			</p>
+		<h2>Persoonlijke gegevens</h2>	
+			<p>
+				<label>Naam: <input type="text" name="naam">
+				</label>
+			</p>
+			<p>
+				<label>Straat: <input type="text" name="straat">
+				</label>	
+			</p>
+			<p>
+				<label>Huisnummer: <input type="text" name="nummer">
+				</label>	
+			</p>
+			<p>
+				<label>Postcode: <input type="text" name="postnummer">
+				</label>	
+			</p>
+			<p>
+				Kies uw land:
+				<select>
+					<option>België</option>
+					<option>Luxemburg</option>
+					<option>Nederland</option>
+				</select>
+			</p>
+			<p>
+				Kies uw leveringsmethode:
+				<input type="radio" name="leveringsmethode" value="d">DHL
+				<input type="radio" name="leveringsmethode" value="p">de Post
+				<input type="radio" name="leveringsmethode" value="nl">Post NL
+			</p>
+			<p>
+				<label><input type="checkbox" name="nieuwsbrief">Ik ga akkoord met de voorwaarden.</label>
+			</p>
+
+			<p>
+				<input type="submit" name="verStuurKnop" value="Verstuur">
+			</p>	
+		</form>
+	
+</body>
+
+</html>
